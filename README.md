@@ -52,7 +52,7 @@ You're going to need:
 ```shell
 # either run this to run locally along with sudo apt-get install zlib1g-dev build-essential ruby-full in case of error
 bundle install
-bundle exec middleman server
+bundle exec middleman server #apt-get install nodejs - in case of error
 
 # OR run this to run with vagrant
 vagrant up
